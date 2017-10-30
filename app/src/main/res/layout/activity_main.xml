@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.ali_pc.quizapplication.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/score_txt"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+      android:layout_alignParentRight="true"
+        android:id="@+id/score"/>
+
+</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="'OS' computer abbreviation usually means ?"
+        android:id="@+id/ques"
+        android:padding="13dp"
+        android:layout_marginBottom="48dp"
+        android:textSize="18sp" />
+    
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="Open Software"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt21"
+        android:background="@color/colorAccent1"
+        android:textColor="#fff"
+        android:text="Operating System"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="Operating Service"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:text="Open Source"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+
+        />
+
+</LinearLayout>
